@@ -1,0 +1,86 @@
+/* universal selector */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+/* name selector */
+body{
+  background-color: black;
+}
+/* in seletor */
+#admin-box{
+  background-color: blueviolet;
+  color: white;
+  width: 50%;
+  margin: 15% auto;
+  padding: 25px;
+  text-align: center;
+}
+#admin-box h1{
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+#admin-box img{
+  display: block;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  width: 150px;
+  background-color: blanchedalmond;
+}
+/* Gruping selector */
+input,level{
+  display: block;
+}
+form{
+  margin-top: 28px;
+}
+label{
+  line-height: 28px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: yellowgreen;
+  color: black;
+  border-color: gold;
+  border: 2px solid black;
+}
+input::placeholder{
+  color: black;
+}
+h1{
+  color:black;
+  font-style: italic;
+}
+input[ type="submit"]{
+  width: 50%;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+input[ type="submit"]:hover{
+  background-color: brown;
+  color: azure;
+  transition: ease-in 0.8s;
+}
+/* class selector */
+.p{
+  font-size: 15px;
+  line-height: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.p a{
+  text-transform: capitalize;
+  color: black;
+}
+.p a:active{
+  background-color: yellowgreen;
+}
